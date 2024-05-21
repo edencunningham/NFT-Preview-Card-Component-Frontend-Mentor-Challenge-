@@ -1,0 +1,116 @@
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px
+}
+
+.card {
+    width: 375px;
+    height: 650px;
+
+    border: hsl(216, 50%, 16%) 1px solid;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: hsl(216, 50%, 16%);
+}
+
+.insideCard {
+    max-width: 325px;
+    max-height: 600px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    /* border: red 1px solid; */
+}
+
+.cube {
+    width: 325px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.profilePic {
+    width: 50px;
+    height: 50px;
+}
+
+.productNum {
+    color: white;
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.collection {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-weight: 200;
+}
+
+.inline {
+    display: flex;
+    max-width: 325px;
+}
+
+.ETH {
+    width: 162.5px;
+
+    font-family: Outfit;
+    font-weight: 500;
+    color: hsl(178, 100%, 50%);
+}
+
+.daysLeft {
+    width: 162.5px;
+
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-weight: 300;
+}
+
+hr {
+    /* color: rgb(139, 172, 218);*/
+    width: 100%;
+}
+
+.inline2 {
+    display: flex;
+    max-width: 325px;
+}
+
+.creation {
+    width: 80%;
+    font-family: Outfit;
+    align-self: center;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.imgBox {
+    width: 20%;
+}
+
+span {
+    color: white;
+}
+
+.clock {
+    align-self: center;
+
+}
